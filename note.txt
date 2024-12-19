@@ -1,0 +1,12 @@
+PVM SĄSKAITA FAKTŪRA
+Nr.
+
+Pardavėjas
+
+Pirkėjas
+
+eil.Nr., Preke, Kiekis, kaina, nuolaoida (fiksuota, procentai, nėra) - visada su minusu, jei procentai tai Atvaizduojam ir proc ir eur; viso suma
+
+Funkcijos:
+procentų apskaičiavimo funkcija
+nuolaidos apskaičiavimas priklausomai nuo tipo

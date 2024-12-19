@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sąskaita</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+ 
+<body>
+    <header>
+        <h1>PVM SĄSKAITA FAKTŪRA</h1>
+        <p>Serija <span class="vatNumber" data-vatSerial>___</span> Nr. <span class="vatNumber" data-vatNumber>___</span></p>
+        <p><span data-date>4545465</span></p>
+    </header>
+ 
+    <main>
+        <section class="company-section">
+            <div>
+                <h2>Pardavėjas:</h2>
+                <h3><span data-seller></span></h3>
+                <p>Adresas: <span data-seller-address></span></p>
+                <p>Įmonės kodas: <span data-seller-code></span></p>
+                <p>PVM mokėtojo kodas: <span data-seller-vat></span></p>
+                <p>Telefono Nr.: <span data-seller-phone></span></p>
+                <p>El. Paštas: <span data-seller-email></span></p>
+            </div>
+            <div>
+                <h2>Pirkėjas:</h2>
+                <h3><span data-buyer></span></h3>
+                <p>Adresas: <span data-buyer-address></span></p>
+                <p>Įmonės kodas: <span data-buyer-code></span></p>
+                <p>PVM mokėtojo kodas: <span data-buyer-vat></span></p>
+                <p>Telefono Nr.: <span data-buyer-phone></span></p>
+                <p>El. Paštas: <span data-buyer-email></span></p>
+            </div>
+        </section>
+        <section class="item-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Eilės Nr.</th>
+                        <th>Prekės pavadinimas</th>
+                        <th>Kiekis, vnt</th>
+                        <th>Kaina, Eur</th>
+                        <th>Nuolaida, Eur</th>
+                        <th>Suma, Eur</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+ 
+        </section>
+        <section>
+            <h4>Apmokėti iki: <span data-due-date></span></h4> 
+        </section>
+    </main>
+</body>
+ 
+</html>
